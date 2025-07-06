@@ -1,0 +1,22 @@
+/* Global base.css */
+body {
+  height: 100vh;  
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: blue;
+  background-color: grey;
+
+  /* Background gradient image */
+  background-image: linear-gradient(to right, rgb(21, 88, 83) 30%, rgba(255, 255, 255, 0.1) 70%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-origin: border-box;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
