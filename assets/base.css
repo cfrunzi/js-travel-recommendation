@@ -1,28 +1,46 @@
 /* Global base.css */
-* {
-    box-sizing: border-box;
+/* Base styles for body, fonts, colors */
+body {
     margin: 0;
     padding: 0;
-}
-
-body {
-  height: 100vh;  
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
-  color: blue;
-  background-color: grey;
-
-  /* Background gradient image */
-  background-image: linear-gradient(to right, rgb(21, 88, 83) 30%, rgba(255, 255, 255, 0.1) 70%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: overlay;
-  background-origin: border-box;
-}
-
-a {
-  text-decoration: inherit;
-  color: inherit;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #155853 30%, rgba(255, 255, 255, 0.1) 70%);
+    background-blend-mode: overlay;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .result-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .result-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .res-txt h3 {
+    margin: 0 0 5px;
+  }
+  
+  .res-txt p {
+    margin: 0;
+    font-size: 0.9rem;
+  }  

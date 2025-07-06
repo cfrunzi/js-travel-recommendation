@@ -1,31 +1,42 @@
 /* search-bar.css */
 
-.header-search {
+/* Search Result & Message Styles */
+#search-results {
+  margin-top: 20px;
+}
+
+#no-result,
+#invalid-result {
+  padding: 10px;
+  background-color: #ffcdd2;
+  border: 1px solid #e57373;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.result-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   gap: 10px;
-  border-radius: 20px;
-  background-color: white;
-  padding: 5px 10px;
 }
 
-.search-input {
-  flex-grow: 1;
-  border: none;
-  padding: 8px;
-  color: darkgreen;
-  outline: none;
-}
-
-.search-button {
-  padding: 8px 12px;
-  background-color: darkgreen;
-  color: white;
+.result-item img {
+  width: 80px;
+  height: 80px;
   border-radius: 5px;
-  transition: background-color 0.2s ease;
+  object-fit: cover;
 }
 
-.search-button:active {
-  background-color: white;
-  color: darkgreen;
+.res-txt h3 {
+  margin: 0 0 5px;
+}
+
+.res-txt p {
+  margin: 0;
+  font-size: 0.9rem;
 }
