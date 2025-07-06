@@ -70,6 +70,13 @@ a {
     justify-content: center;
 }
 
+#logo, #website-name {
+    padding: 0px 5px;
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* Controls navigation text */
 .nav-a{
     padding: 5px 40px;
