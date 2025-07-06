@@ -5,7 +5,7 @@ const noResult = document.getElementById('no-result');
 const invalidKeyWord = document.getElementById('invalid-result');
 
 // Load JSON data
-fetch('./data/travel-recommendation-api.json')
+fetch('assets/data/travel_recommendation_api.json')
   .then(response => response.json())
   .then(data => {
     loadedSearchData = data;
