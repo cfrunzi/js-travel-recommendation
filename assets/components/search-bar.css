@@ -1,52 +1,31 @@
-#search-results {
-    position: absolute;
-    top: 10vh;
+/* search-bar.css */
 
-    right: 5vw;
-    width: 20vw;
-    background-color: rgba(0, 0, 0, 0.1);
-
-    border-radius: 15px;
-    padding: 20px;
-    overflow-y: auto;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-
-    visibility: hidden;
-    display: flex;
-    flex-direction: column;
+.header-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 5px 10px;
 }
 
-#no-result {
-    background-color: white;
-    margin: 5px 0;
-    padding: 10px;
-
-    border-radius: 8px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    visibility: hidden;
-    height: 45%;
+.search-input {
+  flex-grow: 1;
+  border: none;
+  padding: 8px;
+  color: darkgreen;
+  outline: none;
 }
 
-#no-result p{
-    font-size: medium;
-    color: #333;
-    margin: 2px;
-
-    display: inline-block;
-    height: 100%;
-    text-align: center;
+.search-button {
+  padding: 8px 12px;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
 }
 
-#invalid-keyword p {
-    font-size: large;
-    color: white;
-    text-align: center;
-    margin: 20px 0;
+.search-button:active {
+  background-color: white;
+  color: darkgreen;
 }

@@ -1,50 +1,47 @@
-#home-container {
-    color: white;
-    width: 20vw;
-    height: 40vh;
+/* home.css */
 
-    position: absolute;
-    left: 20vw;
-    top: 20vh;
-
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    align-items: left;
+.home-container {
+  padding: 40px;
+  text-align: center;
 }
 
-.home-page-content {
-    display: block;
-    padding: 10px 0px;
-    margin: 10px;
+.home-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-.home-page-content h1 {
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-weight: 800;
-    font-size: 3em;
+.home-container p {
+  font-size: 1rem;
+  margin-bottom: 30px;
 }
 
-.home-page-content p {
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: 600;
-   font-size: 1em;
-   display: inline-block;
+.home-container button {
+  padding: 12px 20px;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 5px;
 }
 
-.home-page-content button {
-    background-color: rgb(11, 170, 159);
-    color: rgb(255, 255, 255);
-
-    padding: 5px 20px;
-    margin: 5px 0px;
-    border: none;
-    border-radius: 10px;
-
-    font-size: 1.2em;
-    font-weight: 800;
+#search-results {
+  position: absolute;
+  top: 10vh;
+  right: 5vw;
+  width: 20vw;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 100;
 }
 
-#header-search {
-    visibility: visible;
+#no-result,
+#invalid-result {
+  background-color: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1rem;
 }
