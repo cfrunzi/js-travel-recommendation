@@ -2,64 +2,66 @@
 <html>
 <head>
     <title>TravelBloom - Instant Travel Recommendations</title>
+    <link rel="stylesheet" href="./assets/base.css">
     <link rel="stylesheet" href="./assets/pages/about_us.css">
-    <link rel="stylesheet" href="./assets/pages/contact_us.css">
-    <link rel="stylesheet" href="./assets/components/nav-bar-styles.css">
+    <link rel="stylesheet" href="./assets/components/nav-bar.css">
+    <link rel="stylesheet" href="./assets/components/social-links.css">
 </head>
 <body>
     <div id="nav-container"> 
         <!-- Holds navigation bar-->
         <header id="nav-header">
-            <span id="logo"></span>
-            <span id="website-name"></span>
+            <span id="logo">
+                <img src="./assets/images/planes.png" width="50" height="30" alt="TravelBloom logo">
+            </span>
+            <span id="website-name">
+                <a href="#">TravelBloom - Instant Recommendations</a>
+        </span>
         </header>
-        <nav id="nav-bar">
-            <div id="nav-anchor">
-                <a href="./index.html">Home</a>
-                <a href="./about_us.html">About Us</a>
-                <a href="./contact_us.html">Contact Us</a>
+        <nav class="nav-bar">
+            <div class="nav-links">
+                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link" href="./about_us.html">About Us</a>
+                <a class="nav-link" href="./contact_us.html">Contact Us</a>
             </div>
         </nav>
     </div>
     <div id="main-container">
-        <div id="about-container">
-            <div id="about-content-h" class="about-content"><h1>ABOUT US </h1></div>
-            <div id="about-content-p" class="about-content">
-                <p>Welcome to TravelBloom! We are a family of passionate individuals seeking to providing
-                excellent travel advice to our customers. <br> Our mission is to <strong> provide the best
-                advice </strong> for people traveling to different destinations all around the world. <br>
-                We value authenticity, sustainability, and exceptional service, ensuring that every journey 
-                is exciting as well as providing a broader perspective. <br> 
-                </p>
+        <section id="about-container">
+            <h1>ABOUT US </h1>
+            <p>Welcome to TravelBloom! We are a family of passionate individuals seeking to providing
+            excellent travel advice to our customers. </p>
+            <p> Our mission is to <strong> provide the best
+            advice </strong> for people traveling to different destinations all around the world. </p>
+            <p>We value authenticity, sustainability, and exceptional service, ensuring that every journey 
+            is exciting as well as providing a broader perspective.</p>
+            
+            <h2>Our Team</h2>
+            <div class="team-member">
+                <!-- Team member 1-->
+                <span class="team-member-name">John Doe</span>
+                <span class="team-member-role">Head of TravelBloom and Team Lead.</span>
+                <button>CEO</button>
             </div>
-            <div id="about-content-team" class="about-content">
-                <div id="team-header"><h2>Our <br> Team</h2></div>
-                <div class="team-member">
-                    <!-- Team member 1-->
-                    <span class="team-member-name">John Doe</span>
-                    <span class="team-member-role">Head of TravelBloom and Team Lead.</span>
-                    <span class="team-member-button"><button>CEO</button></span>
-                </div>
-                <div class="team-member">
-                    <span class="team-member-name">Jane Doe</span>
-                    <span class="team-member-role">Responsible for administrative duties.</span>
-                    <span class="team-member-button"><button>Executive Assistant</button></span>
-                </div>
-                <div class="team-member">
-                    <span class="team-member-name">Richard Appleseed</span>
-                    <span class="team-member-role">Responsible for research and development, and management.</span>
-                    <span class="team-member-button"><button>Technical Lead and CIO</button></span>
-                </div>
+            <div class="team-member">
+                <span class="team-member-name">Jane Doe</span>
+                <span class="team-member-role">Responsible for administrative duties.</span>
+                <button>Executive Assistant</button>
             </div>
-        </div> 
-        <div id="social-links-container">
-            <span class="social-media-link"><a href="https://www.facebook.com/"><img src="./assets/images/Facebook_icon_2013.svg.png" width="50px" height="50px"></a></span>
-            <span class="social-media-link"><a href="https://www.x.com"></a><img src="./assets/images/Logo_of_Twitter.svg.png" width="50px" height="50px"></span>
-            <span class="social-media-link"><a href="https://www.youtube.com"><img src="./assets/images/YouTube_full-color_icon_(2017).svg.png" width="50px" height="50px"></a></span>
-            <span class="social-media-link"><a href="https://www.instagram.com"><img src="./assets/images/Instagram_icon.png" width="50px" height="50px"></a></span>
-            <span class="social-media-link"><a href="https://www.tiktok.com"></a><img src="./assets/images/Tiktok_icon.png" width="50px" height="50px"></span>
-            <span class="social-media-link"><a href="https://www.linkedin.com"></a><img src="./assets/images/social-linkedin-square1-512.png" width="50px" height="50px"></span>
-        </div>
+            <div class="team-member">
+                <span class="team-member-name">Richard Appleseed</span>
+                <span class="team-member-role">Responsible for research and development, and management.</span>
+                <button>Technical Lead and CIO</button>
+            </div>
+        </section> 
+        <aside class="social-links-container">
+            <a href="https://www.facebook.com/"><img src="./assets/images/Facebook_icon_2013.svg.png" width="50px" height="50px"></a>
+            <a href="https://www.x.com"><img src="./assets/images/Logo_of_Twitter.svg.png" width="50px" height="50px"></a>
+            <a href="https://www.youtube.com"><img src="./assets/images/YouTube_full-color_icon_(2017).svg.png" width="50px" height="50px"></a>
+            <a href="https://www.instagram.com"><img src="./assets/images/Instagram_icon.png" width="50px" height="50px"></a>
+            <a href="https://www.tiktok.com"><img src="./assets/images/Tiktok_icon.png" width="50px" height="50px"></a>
+            <a href="https://www.linkedin.com"><img src="./assets/images/social-linkedin-square1-512.png" width="50px" height="50px"></a>
+        </aside>
     </div>
     <script src="./scripts/travel_recommendation.js"></script>
 </body>

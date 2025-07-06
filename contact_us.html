@@ -2,46 +2,50 @@
 <html>
 <head>
     <title>TravelBloom - Contact Us</title>
-    <link rel="stylesheet" href="./assets/pages/about_us.css">
+    <link rel="stylesheet" href="./assets/base.css">
     <link rel="stylesheet" href="./assets/pages/contact_us.css">
-    <link rel="stylesheet" href="./assets/components/nav-bar-styles.css">
+    <link rel="stylesheet" href="./assets/components/nav-bar.css">
 </head>
 <body>
     <div id="nav-container"> 
         <!-- Holds navigation bar-->
         <header id="nav-header">
-            <!--TODO: Add logo and website name-->
-            <span id="logo"></span>
-            <span id="website-name"></span>
+            <span id="logo">
+                <img src="./assets/images/planes.png" width="50" height="30" alt="TravelBloom logo">
+            </span>
+            <span id="website-name">
+                <a href="#">TravelBloom - Instant Recommendations</a>
+            </span>
         </header>
-        <nav id="nav-bar">
-            <div id="nav-anchor">
-                <a href="./index.html">Home</a>
-                <a href="./about_us.html">About Us</a>
-                <a href="#">Contact Us</a>
+        <nav class="nav-bar">
+            <div class="nav-links">
+                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link" href="./about_us.html">About Us</a>
+                <a class="nav-link" href="#">Contact Us</a>
             </div>
         </nav>
     </div>
+    <!-- Contact Form -->
     <div id="main-container">
-        <div id="contact">
-            <div class="class-content">
-                <h1>CONTACT US</h1>
-                <p>Get in touch with our team.</p>
-            </div>
-            <div class="contact-form">
-                <form>
-                    <label for="form-name">First name</label><br>
-                    <input type="text" placeholder="Enter your first name"></input>
-                    <label for="form-last-name"></label><br>
-                    <input type="text" placeholder="Enter your last name"></input>
-                    <label for="email"></label><br>
-                    <input type="text" placeholder="Enter your email"></input>
-                    <label for="message"></label><br>
-                    <textarea placeholder="Enter your message"></textarea><br>
-                    <button>Submit</button>
-                </form>
-            </div>
-        </div>
+        <section id="contact">
+            <h1>CONTACT US</h1>
+            <p>Get in touch with our team.</p>
+            <form>
+                <label for="form-name">First name</label><br>
+                <input type="text" placeholder="Enter your first name"></input>
+
+                <label for="form-last-name"></label><br>
+                <input type="text" placeholder="Enter your last name"></input>
+                    
+                <label for="email"></label><br>
+                <input type="text" placeholder="Enter your email"></input>
+                    
+                <label for="message"></label><br>
+                <textarea placeholder="Enter your message"></textarea><br>
+                
+                <button>Submit</button>
+            </form>
+        </section>
     </div>
 </body>
 </html>
