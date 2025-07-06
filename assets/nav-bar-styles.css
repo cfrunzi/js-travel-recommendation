@@ -1,0 +1,129 @@
+/* Styling for nav bar */
+
+body {
+    height: 100wh;
+    padding: 0px;
+    margin: 0px;
+
+    background-color: grey;
+    color: blue;
+
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url(""), linear-gradient(right, rgb(21, 88, 83) 30%, 
+    rgba(255, 255, 255, 0.1) 70%);
+    background-size: cover;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+/* Navigation bar */
+#nav-container {
+    width: 20%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    height: 70px;
+    margin: 0px;
+}
+
+#nav-header {
+    width: 20%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#nav-bar {
+    width: 50%;
+}
+
+/* Search bar */
+#header-search {
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 20px;
+    padding: 0px 0px;
+    background-color: white;
+    color: black;
+
+    margin: 5px 10px;
+    padding: 5px 5px;
+}
+
+#nav-anchor {
+    display: flex;
+    justify-content: center;
+}
+
+/* Controls navigation text */
+.nav-a{
+    padding: 5px 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-a a{
+    font-size: larger;
+}
+
+#search-bar {
+    width: 70%;
+    text-align: left;
+    padding: auto 5px;
+    margin: auto 5px;
+    border: none;
+}
+
+/* Search button controls */
+.search-button-span {
+    width: 12.5%;
+    border: solid;
+    border-color: darkgreen;
+    border-radius: 5px;
+
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+}
+
+.search-button-span:active {
+    background-color: white;
+    color: darkgreen;
+}
+
+/* Search functionality */
+.search-button {
+    padding: 5px 5px;
+    margin: 0px;
+    color: inherit;
+    background-color: inherit;
+    border: none;
+}
+
+#searchBarInput, #searchBarInput:active {
+    width: 95%;
+    border: none;
+    outline: none;
+
+    margin: 5px;
+    padding: 5px;
+    font-size:small;
+    color: darkgreen;
+}
